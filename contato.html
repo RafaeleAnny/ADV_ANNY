@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Anny Caroline Dias</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" sizes="128x128" href="logo001.png">
+</head>
+<body>
+
+<div class="contato-page">
+  <div class="imagem">
+    <img src="foto002.JPG" alt="Foto de Contato">
+  </div>
+  <div class="texto">
+    <h1>Entre em Contato</h1>
+    <p>Envie sua mensagem para que possamos lhe atender com excelência!</p>
+    <form action="https://formsubmit.co/annycarolinedias25@gmail.com" method="POST">
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome"><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="mensagem">Mensagem:</label><br>
+      <textarea id="mensagem" name="mensagem"></textarea><br><br>
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</div>
+
+
+<header class="header">
+  <div class="container">
+    <div class="logo">
+  <img src="logo001.png" alt="Logo Anny Caroline Dias" class="logo-img">
+</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="quemsou.html">Quem Sou</a></li>
+        <li><a href="atuacao.html">Área de Atuação</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<footer class="footer">
+  <p>&copy; 2025 Anny Caroline Dias | OAB/SC 71.400</p>
+</footer>
+
+
+<script>
+window.addEventListener('scroll', function() {
+  const header = document.querySelector('.header');
+  if (window.scrollY > 50) {
+    header.classList.add('transparent');
+  } else {
+    header.classList.remove('transparent');
+  }
+});
+</script>
+
+
+<a href="https://api.whatsapp.com/send?phone=5548996810089" class="whatsapp-float" target="_blank">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
+</a>
+
+</body>
+</html>
